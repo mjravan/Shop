@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'accounts.apps.AccountsConfig',
     'storages',
+    'celery',
 ]
 
 MIDDLEWARE = [
@@ -143,5 +144,5 @@ AWS_ACCESS_KEY_ID = 'b9ccb85b-93d7-4ea3-99fe-416e7a9b428b'
 AWS_SECRET_ACCESS_KEY = 'cb6def700ab3827eabd164965ebdf5f08ff6fc02d76255f645ccd3defeacfa1d'
 AWS_S3_ENDPOINT_URL = 'https://s3.ir-tbz-sh1.arvanstorage.ir'
 AWS_STORAGE_BUCKET_NAME = 'django-shop19'
-AWS_SERVICE_NAME = 'S3'
+AWS_SERVICE_NAME = 's3'
 AWS_OVERWRITE_FILE = False
